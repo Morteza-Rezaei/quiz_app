@@ -1,3 +1,2 @@
 # quiz_app
-
-A new Flutter project.
+## 2. Project of Maximilian's flutter course.
