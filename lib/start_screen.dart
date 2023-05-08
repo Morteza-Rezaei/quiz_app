@@ -7,7 +7,7 @@ class StartScreen extends StatelessWidget {
   final void Function() startQuiz;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(context) {
     return Center(
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -19,9 +19,9 @@ class StartScreen extends StatelessWidget {
           ),
           const SizedBox(height: 80),
           Text(
-            'Learn the the fun way!',
+            'Learn Flutter the fun way!',
             style: GoogleFonts.lato(
-              fontSize: 30,
+              fontSize: 24,
               fontWeight: FontWeight.bold,
               color: const Color.fromARGB(255, 40, 138, 1),
             ),
@@ -32,7 +32,7 @@ class StartScreen extends StatelessWidget {
             style: OutlinedButton.styleFrom(
               foregroundColor: const Color.fromARGB(255, 40, 138, 1),
             ),
-            icon: const Icon(Icons.arrow_right_alt_rounded),
+            icon: const Icon(Icons.arrow_right_alt),
             label: const Text('Start Quiz'),
           )
         ],
